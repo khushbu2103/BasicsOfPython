@@ -1,0 +1,13 @@
+def quotient_remainder(num, num2):
+    quotient = num/num2
+    remainder = num%num2
+    print(f"quotient: {quotient} , remainder: {remainder}")
+
+def main():
+    num = int(input("enter num1"))
+    num2 = int(input("enter num2"))
+    quotient_remainder(num, num2)
+
+if __name__ == "__main__":
+    main()
+
